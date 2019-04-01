@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ultimate Tac-TicToe">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ultimate_Tac_TicToe</output-path>
+    <root id="archive" name="Ultimate Tac-TicToe Client.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/tactictoe/server_side/Database.class" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/tactictoe/server_side/RoomManager.class" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/tactictoe/server_side/ServerOperation.class" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/tactictoe/server_side/ServerThread.class" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/Final project/tactictoe/server_side/TestServer.class" />
+    </root>
+  </artifact>
+</component>

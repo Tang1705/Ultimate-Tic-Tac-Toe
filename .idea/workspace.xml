@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ultimate Tac-TicToe" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="449d7b5a-3d55-437f-b963-26f6858a79ec" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tac_tic_toe$MainGUI.ic" NAME="MainGUI Coverage Results" MODIFIED="1545524366611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tactictoe.client_side.style.windows.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Final_project$MainGUI.ic" NAME="MainGUI Coverage Results" MODIFIED="1545268705624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tactictoe.windows.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Final_project$TestServer.ic" NAME="TestServer Coverage Results" MODIFIED="1545311811435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tactictoe.server.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../tac-tic-toe\exportToHTML" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/TestServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/WaitGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/MainGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1995">
+              <caret line="124" column="115" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="115" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/component/GameButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9154#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/RoomManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gridPane</find>
+      <find>GameButton.</find>
+      <find>GameButton.this.</find>
+      <find>this.b</find>
+      <find>GameButton</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this</replace>
+      <replace />
+      <replace>b</replace>
+      <replace>NetGameButton</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tactictoe/windows/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/windows/NetGameGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/windows/LocalGameGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/windows/LogInGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/windows/BeginGUI.java" />
+        <option value="$PROJECT_DIR$/src/server_side/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/client_side/RoomGUI.java" />
+        <option value="$PROJECT_DIR$/src/client_side/WaitGUI.java" />
+        <option value="$PROJECT_DIR$/src/client_side/windows/RoomGUI.java" />
+        <option value="$PROJECT_DIR$/src/client_side/component/GameButton.java" />
+        <option value="$PROJECT_DIR$/src/client_side/dao/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/client_side/dao/Player.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/server_side/client_side/dao/Receive.java" />
+        <option value="$PROJECT_DIR$/src/client_side/dao/Receive.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/Receive.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/client_side/server/Player.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/client_side/dao/Receive.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/server_side/RoomManager.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/client_side/dao/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/client_side/server/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/dao/client_side/component/NetGameButton.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/server/LocalOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/server/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/BeginGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/component/GameButton.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/component/MyButton.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/component/NetGameButton.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/LocalOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/NetOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/Operation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/Player.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/PlayerNet.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/Rank.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/dao/Receive.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/LanGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/LocalGameGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/LogInGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/beginCSS.css" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/operationCSS.css" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/RankGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/RoomGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/WaitGUI.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/server_side/Database.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/server_side/RoomManager.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/server_side/ServerOperation.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/server_side/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/server_side/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/tactictoe/client_side/windows/NetGameGUI.java" />
+        <option value="$PROJECT_DIR$/src/UIDESIGN.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tactictoe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tactictoe" type="462c0819:PsiDirectoryNode" />
+              <item name="client_side" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tactictoe" type="462c0819:PsiDirectoryNode" />
+              <item name="client_side" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tac-tic-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tac-tic-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tactictoe" type="462c0819:PsiDirectoryNode" />
+              <item name="server_side" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980340280" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\practice\tac-tic-toe\out" />
+      <recent name="D:\idea\practice\tac-tic-toe\src\tactictoe\client_side\style\style" />
+      <recent name="D:\idea\practice\tac-tic-toe\src\tactictoe\client_side\style" />
+      <recent name="D:\idea\practice\tac-tic-toe\src\tactictoe\client_side\server" />
+      <recent name="D:\idea\practice\tac-tic-toe\src\client_side\windows" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="？" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGUI">
+    <configuration name="MainGUI" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tactictoe.client_side.windows.MainGUI" />
+      <module name="Final project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tactictoe.client_side.style.windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tactictoe.server_side.TestServer" />
+      <module name="Final project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tactictoe.client_side.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainGUI" />
+      <item itemvalue="Application.TestServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGUI" />
+        <item itemvalue="Application.TestServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="449d7b5a-3d55-437f-b963-26f6858a79ec" name="Default Changelist" comment="" />
+      <created>1543902235197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543902235197</updated>
+      <workItem from="1543902239172" duration="17280000" />
+      <workItem from="1544229247874" duration="17822000" />
+      <workItem from="1544314175650" duration="18306000" />
+      <workItem from="1544441660904" duration="24285000" />
+      <workItem from="1544536986578" duration="5927000" />
+      <workItem from="1544581621378" duration="80374000" />
+      <workItem from="1545030479298" duration="12927000" />
+      <workItem from="1545050002907" duration="5070000" />
+      <workItem from="1545093696787" duration="6087000" />
+      <workItem from="1545112975549" duration="18238000" />
+      <workItem from="1545181062616" duration="10799000" />
+      <workItem from="1545196015538" duration="15854000" />
+      <workItem from="1545234529504" duration="19166000" />
+      <workItem from="1545296580836" duration="10286000" />
+      <workItem from="1545352011668" duration="19630000" />
+      <workItem from="1545391738610" duration="3282000" />
+      <workItem from="1545395120595" duration="2116000" />
+      <workItem from="1545397451037" duration="8321000" />
+      <workItem from="1545406855676" duration="5114000" />
+      <workItem from="1545439374394" duration="4147000" />
+      <workItem from="1545443730478" duration="131000" />
+      <workItem from="1545444359610" duration="13478000" />
+      <workItem from="1545464089453" duration="8046000" />
+      <workItem from="1545490626213" duration="15902000" />
+      <workItem from="1545558827490" duration="3125000" />
+      <workItem from="1545562118923" duration="1881000" />
+      <workItem from="1545610681223" duration="1952000" />
+      <workItem from="1545615258360" duration="5445000" />
+      <workItem from="1545623595001" duration="7903000" />
+      <workItem from="1545662256877" duration="7430000" />
+      <workItem from="1545703129072" duration="104000" />
+      <workItem from="1545717415303" duration="1338000" />
+      <workItem from="1545727902158" duration="935000" />
+      <workItem from="1546526511231" duration="170000" />
+      <workItem from="1546697670590" duration="204000" />
+      <workItem from="1546822386303" duration="56000" />
+      <workItem from="1547207078619" duration="404000" />
+      <workItem from="1547555438877" duration="23000" />
+      <workItem from="1549011639450" duration="694000" />
+      <workItem from="1549972258343" duration="20000" />
+      <workItem from="1549979567474" duration="935000" />
+      <workItem from="1551444263377" duration="199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="375406000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1997319" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" type="SLIDING" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" weight="0.28288543" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Statistic" order="13" weight="0.9575672" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/tactictoe.server_side.ServerOperation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.server_side.ServerOperation</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.server_side.ServerOperation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="155.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.server_side.RoomManager">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.server_side.RoomManager</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.server_side.RoomManager</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="39.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.server_side.Database">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.server_side.Database</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">tactictoe.server_side.Database</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="97.0" y="86.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.BeginGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.BeginGUI</OriginalElement>
+          <nodes>
+            <node x="29.75" y="0.0">javafx.application.Application</node>
+            <node x="234.0" y="452.0">tactictoe.client_side.windows.BeginGUI</node>
+            <node x="0.0" y="429.0">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+              <point x="0.0" y="-62.0" />
+              <point x="107.0" y="404.0" />
+              <point x="120.5" y="404.0" />
+              <point x="-90.75" y="189.5" />
+            </edge>
+            <edge source="tactictoe.client_side.windows.BeginGUI" target="javafx.application.Application">
+              <point x="0.0" y="-39.0" />
+              <point x="315.5" y="404.0" />
+              <point x="302.0" y="404.0" />
+              <point x="90.75" y="189.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-152.0" y="191.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.LanGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.LanGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.LanGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.LocalGameGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.LocalGameGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.LocalGameGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="353.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.LogInGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.LogInGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+            <node x="" y="">tactictoe.client_side.windows.LogInGUI</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.MainGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.MainGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.MainGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.NetGameGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.NetGameGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.NetGameGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1459954233409613" x="296.0" y="624.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.RankGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.RankGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.RankGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.RoomGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.RoomGUI</OriginalElement>
+          <nodes>
+            <node x="31.25" y="0.0">javafx.application.Application</node>
+            <node x="234.0" y="440.0">tactictoe.client_side.windows.RoomGUI</node>
+            <node x="0.0" y="429.0">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="tactictoe.client_side.windows.RoomGUI" target="javafx.application.Application">
+              <point x="0.0" y="-51.0" />
+              <point x="318.5" y="404.0" />
+              <point x="303.5" y="404.0" />
+              <point x="90.75" y="189.5" />
+            </edge>
+            <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+              <point x="0.0" y="-62.0" />
+              <point x="107.0" y="404.0" />
+              <point x="122.0" y="404.0" />
+              <point x="-90.75" y="189.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-149.0" y="191.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.windows.WaitGUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.windows.WaitGUI</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.application.Application</node>
+            <node x="" y="">tactictoe.client_side.windows.WaitGUI.Listen</node>
+            <node x="" y="">tactictoe.client_side.windows.WaitGUI</node>
+            <node x="" y="">javafx.application.Application.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8993103448275862" x="209.0" y="379.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.LocalOperation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.LocalOperation</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.dao.Operation</node>
+            <node x="" y="">tactictoe.client_side.dao.LocalOperation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="138.0" y="208.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.Operation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.Operation</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.dao.Operation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="89.0" y="51.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.Player">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.Player</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">tactictoe.client_side.dao.Player</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-245.0" y="46.0" />
+          <SelectedNodes>
+            <node>tactictoe.client_side.dao.Player</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.PlayerNet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.PlayerNet</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.dao.PlayerNet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="109.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.Rank">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.Rank</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.dao.Rank</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="143.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.Receive">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.Receive</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">tactictoe.client_side.dao.Receive</node>
+            <node x="" y="">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="340.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.dao.NetOperation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.dao.NetOperation</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.dao.NetOperation</node>
+            <node x="" y="">tactictoe.client_side.dao.Operation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="160.0" y="196.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.component.NetGameButton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.component.NetGameButton</OriginalElement>
+          <nodes>
+            <node x="" y="">tactictoe.client_side.component.NetGameButton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8276095701884395" x="617.0" y="331.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.component.GameButton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.component.GameButton</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.scene.layout.Pane</node>
+            <node x="" y="">javafx.event.EventTarget</node>
+            <node x="" y="">tactictoe.client_side.component.GameButton</node>
+            <node x="" y="">javafx.beans.DefaultProperty</node>
+            <node x="" y="">com.sun.javafx.beans.IDProperty</node>
+            <node x="" y="">javafx.css.Styleable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8687370600414077" x="543.0" y="744.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.client_side.component.MyButton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.client_side.component.MyButton</OriginalElement>
+          <nodes>
+            <node x="" y="">javafx.scene.control.Skinnable</node>
+            <node x="" y="">tactictoe.client_side.component.MyButton</node>
+            <node x="" y="">javafx.scene.control.ButtonBase</node>
+            <node x="" y="">javafx.event.EventTarget</node>
+            <node x="" y="">javafx.beans.DefaultProperty</node>
+            <node x="" y="">com.sun.javafx.beans.IDProperty</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8260113300885661" x="695.0" y="745.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tactictoe.server_side.ServerThread">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tactictoe.server_side.ServerThread</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">tactictoe.server_side.ServerThread</node>
+            <node x="" y="">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8285313704872064" x="255.0" y="427.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/component/MyButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/component/NetGameButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#5246#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2727#2728#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#3015#3016#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
+            <element signature="e#3591#3592#0" expanded="true" />
+            <element signature="e#3679#3680#0" expanded="true" />
+            <element signature="e#3879#3880#0" expanded="true" />
+            <element signature="e#3967#3968#0" expanded="true" />
+            <element signature="e#4167#4168#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/LocalOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/NetOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#8842#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1701#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/PlayerNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#905#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#3249#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/dao/Receive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#14281#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/LanGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2912#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/LocalGameGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2943#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/LogInGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#8784#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/beginCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/operationCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/RankGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2945#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/RoomGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#6338#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#4508#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/ServerOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11141#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#11056#11057#0" expanded="true" />
+            <element signature="e#11083#11084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1349#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/NetGameGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1235">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#5288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/BeginGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIDESIGN.java" />
+    <entry file="uml://JAVA/UIDESIGN">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>UIDESIGN</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="249.0" y="50.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/WaitGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/windows/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="124" column="115" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/client_side/component/GameButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9154#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tactictoe/server_side/RoomManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>java sdk</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Final project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

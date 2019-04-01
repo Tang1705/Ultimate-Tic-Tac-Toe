@@ -1,0 +1,142 @@
+/*
+* Ultimate Tac-Tic-Toe by Tang
+* 2018.12.25
+* */
+
+.root{
+   -fx-background-image: url("../style/background.PNG");
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: rgba(226, 226, 226, 0);
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: rgba(226, 226, 226, 0);
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: rgba(216, 216, 216, 0);
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-text-fill: rgb(29, 29, 29);
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:hover {
+    -fx-padding: 5,20,5,20;
+    -fx-background-image: url("../style/o.png");
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: rgba(29, 29, 29, 0);
+    -fx-text-fill: rgba(255, 255, 255, 0);
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: rgba(255, 255, 255, 0);
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+#xbutton{
+    -fx-border-color: rgba(226, 226, 226, 0);
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-image: url("../style/x.png");
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: rgba(216, 216, 216, 0);
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+
+#obutton{
+    -fx-border-color: rgba(226, 226, 226, 0);
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-image: url("../style/o.png");
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: rgba(216, 216, 216, 0);
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+#xPane{
+    -fx-background-image: url("../style/xb.png");
+}
+
+#oPane{
+    -fx-background-image: url("../style/ob.png");
+}
+
+#0Pane{
+    -fx-background-image: url("../style/2.png");
+}
+
+
+#1Pane{
+    -fx-background-image: url("../style/1.png");
+}
+
+#3Pane{
+    -fx-background-image: url("../style/3.png");
+}
+#4Pane{
+    -fx-background-image: url("../style/4.png");
+}
+
+#5Pane{
+    -fx-background-image: url("../style/5.png");
+}
+
+#6Pane{
+    -fx-background-image: url("../style/6.png");
+}
+
+#7Pane{
+    -fx-background-image: url("../style/7.png");
+}
+
+#8Pane{
+    -fx-background-image: url("../style/8.png");
+}
+
+#Oturn{
+    -fx-background-image: url("../style/oturn.png");
+}
+
+#Xturn{
+    -fx-background-image: url("../style/xturn.png");
+}

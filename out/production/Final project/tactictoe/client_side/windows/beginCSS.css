@@ -1,0 +1,127 @@
+/*
+* Ultimate Tac-Tic-Toe by Tang
+* 2018.12.25
+* */
+
+.root {
+    -fx-background-image: url("/tactictoe/client_side/style/1.jpg");
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#titleText {
+    -fx-font-size: 42px;
+    -fx-font-family: "Jokerman";
+    -fx-fill: #e2e2e2;
+    -fx-effect: innershadow(three-pass-box, rgba(80, 182, 255, 0.7), 6, 0.0, 0, 2);
+}
+
+#infoLabel {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #e2e2e2;
+    -fx-effect: innershadow(three-pass-box, rgba(80, 182, 255, 0.7), 6, 0.0, 0, 2);
+}
+
+#netLabel {
+    -fx-font-size: 18px;
+    -fx-font-family: "Snap ITC";
+    -fx-fill: #818181;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+#roomField {
+    -fx-font-size: 30px;
+    -fx-font-family: "Bauhaus 93";
+    -fx-border-width: 0 0 0 0;
+    -fx-fill: #ffffff;
+    -fx-effect: innershadow(three-pass-box, rgba(255, 255, 255, 0.7), 6, 0.0, 0, 2);
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: rgba(214, 214, 214, 0);
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color, 30%);
+}
+
+#choiceLabel {
+    -fx-font-size: 28px;
+    -fx-font-family: "Matura MT Script Capitals";
+    -fx-fill: #818181;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+
+#gameButton {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-image: url("/tactictoe/client_side/style/1.jpg");
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#gameButton:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+
+#gameButton:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+#waitPane {
+    -fx-background-image: url("../style/wait.PNG");
+}

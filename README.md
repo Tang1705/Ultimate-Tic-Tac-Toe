@@ -1,0 +1,2 @@
+# Ultimate-Tic-Tac-Toe
+ltimate tic-tac-toe also known as super tic-tac-toe, strategic tic-tac-toe, meta tic-tac-toe, or tic-tac-tic-tac-toe-toe is a board game composed of nine tic-tac-toe boards arranged in a 3-by-3 grid. Players take turns playing in the smaller tic-tac-toe boards until one of them wins in the larger tic-tac-toe board. Compared to traditional tic-tac-toe, strategy in this game is conceptually more difficult, and has proven more challenging for computers.

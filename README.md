@@ -420,7 +420,7 @@ This score is derived from the number of winning results that can be formed at d
 
 As follows, I'm round pieces
 
-$\qquad \qquad \qquad \qquad \qquad \qquad \qquad\qquad$![1920px-Tic-tac-toe-game-1.svg.png-7.6kB][43]
+<div style="background-color:none;height:336px;text-align:center;"><img src="http://static.zybuluo.com/TangWill/nuwg20mzi2p4dgvudqvj0xim/1920px-Tic-tac-toe-game-1.svg.png" /></div>
 
 According to the above model, the score of the chessboard is obtained as follows
 $$f = a \times 2 -b \times 2 \times 3 +c \times 1 - d \times 0$$
@@ -442,8 +442,8 @@ At last, I learn something important in testing and I am interested in testing m
 
 ---
 ## Appendix and Reference
-$[ 1 ]$ Core Java Volume I--Fundamentals 
-$[ 2 ]$ Core Java Volume II--Advanced Features
+\[1] Core Java Volume I--Fundamentals 
+\[2] Core Java Volume II--Advanced Features
  
 
 

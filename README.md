@@ -121,123 +121,123 @@ At last, I would like to show the diagram of each class.
 ---
 ### 3.2 TestServer
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![TestServerUml.PNG-5.3kB][5]
+![TestServerUml.PNG-5.3kB][5]
 
 ---
 ### 3.3 TheverThread
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![ServerThread.PNG-8kB][6]
+![ServerThread.PNG-8kB][6]
 
 ---
 ### 3.4 ServerOperation
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![ServerOperationUML.PNG-17.5kB][7]
+![ServerOperationUML.PNG-17.5kB][7]
 
 ---
 ### 3.5 RoomManager
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![RoomManagerGUI.PNG-5.6kB][8]
+![RoomManagerGUI.PNG-5.6kB][8]
 
 ---
 ### 3.6 Database
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![DataBaseUML.PNG-6.8kB][9]
+![DataBaseUML.PNG-6.8kB][9]
 
 ---
 ### 3.7 BeginGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![BeginGUIUML.PNG-4.1kB][10]
+![BeginGUIUML.PNG-4.1kB][10]
 
 ---
 ### 3.8 LanGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![LanGUI.PNG-5.8kB][11]
+![LanGUI.PNG-5.8kB][11]
 
 ---
 
 ### 3.9 LocalGameGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![LocalGameGUIUML.PNG-13.6kB][12]
+![LocalGameGUIUML.PNG-13.6kB][12]
 
 ---
 ### 3.10 LogInGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![LogInGUIUML.PNG-4kB][13]
+![LogInGUIUML.PNG-4kB][13]
 
 ---
 ### 3.11 MainGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![MainGUIUML.PNG-5.1kB][14]
+![MainGUIUML.PNG-5.1kB][14]
 
 ---
 ### 3.12 NetGameGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![MetGameGUIUML.PNG-29.9kB][15]
+![MetGameGUIUML.PNG-29.9kB][15]
 
 ---
 ### 3.13 RankGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![RankGUIUML.PNG-3.3kB][16]
+![RankGUIUML.PNG-3.3kB][16]
 
 ---
 ### 3.14 RoomGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![RoomGUIUML.PNG-5.3kB][17]
+![RoomGUIUML.PNG-5.3kB][17]
 
 ---
 ### 3.15 WaitGUI
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![WaitGUIUML.PNG-7kB][18]
+![WaitGUIUML.PNG-7kB][18]
 
 ---
 ### 3.16 LocalOperation
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![LocalOperationUML.PNG-20.1kB][19]
+![LocalOperationUML.PNG-20.1kB][19]
 
 ---
 ### 3.17 NetOperation
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![NetOperationUML.PNG-20.5kB][20]
+![NetOperationUML.PNG-20.5kB][20]
 
 ---
 ### 3.18 Operation
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![OperationUML.PNG-4.8kB][21]
+![OperationUML.PNG-4.8kB][21]
 
 ---
 ### 3.19 Player
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![PlayerUML.PNG-10.9kB][22]
+![PlayerUML.PNG-10.9kB][22]
 
 ---
 ### 3.20 PlayerNet
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![PlayerNet.PNG-9.3kB][23]
+![PlayerNet.PNG-9.3kB][23]
 
 ---
 ### 3.21 Rank
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![RankUML.PNG-10.3kB][24]
+![RankUML.PNG-10.3kB][24]
 
 ---
 ### 3.22 Receive
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![ReceiveUML.PNG-25.9kB][25]
+![ReceiveUML.PNG-25.9kB][25]
 
 ---
 ### 3.23 MyButton
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![MybuttonUML.PNG-5kB][26]
+![MybuttonUML.PNG-5kB][26]
 
 ---
 ### 3.24 GameButton
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![GameButton.PNG-18.9kB][27]
+![GameButton.PNG-18.9kB][27]
 
 ---
 ### 3.25 NetGameButto
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![NetGamebuttonUTM.PNG-21.9kB][28]
+![NetGamebuttonUTM.PNG-21.9kB][28]
 
 
 > Note:Because of the complexity,some relationships between these classes may not be showed.
@@ -247,7 +247,7 @@ $\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![NetGamebuttonUTM.PNG-21.9kB]
 ---
 ### 4.1 Icon
 
-$\qquad \qquad \qquad \qquad \qquad \qquad\qquad $![icon.jpg-39.6kB][29]
+![icon.jpg-39.6kB][29]
 
 
 ---

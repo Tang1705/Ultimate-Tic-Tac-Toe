@@ -1,5 +1,7 @@
 # Ultimate Tic-Tac-Toe 
 ---
+## Preface
+
 You can find this paper form https://www.zybuluo.com/TangWill/note/1442929 .
 
 ---

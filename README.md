@@ -1,5 +1,7 @@
 # Ultimate Tic-Tac-Toe 
 ---
+You can find this paper form https://www.zybuluo.com/TangWill/note/1442929 .
+---
 ## Chapter 1 Overall overview
 ---
 ### 1.1 Tic-Tac-Toe

@@ -1,12 +1,22 @@
-# Ultimate Tic-Tac-Toe 
----
+<h1 align="center">
+  <a href="https://github.com/Tang1705/Ultimate-Tic-Tac-Toe" title="Ultimate Tic-Tac-Toe  Documentation">
+    <img alt="Ultimate Tic-Tac-Toe " src="http://static.zybuluo.com/TangWill/bos1qlc0ccnnfo95fplimjqr/icon.jpg" width="200px" height="200px" />
+  </a>
+  <br />
+  IconBattle
+</h1>
+
+<p align="center">
+  一款基于 Cocos2d-x 游戏引擎和 C++ 的消除游戏
+</p>
+
 ## Preface
 
 You can find this paper form https://www.zybuluo.com/TangWill/note/1442929 .
 
----
+
 ## Chapter 1 Overall overview
----
+
 ### 1.1 Tic-Tac-Toe
 ***Tic-tac-toe*** (also known as noughts and crosses or Xs and Os) is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. 
 
@@ -20,7 +30,6 @@ Because of the simplicity of tic-tac-toe, it is often used as a pedagogical tool
 
 The game can be generalized to an m,n,k-game in which two players alternate placing stones of their own color on an m×n board, with the goal of getting k of their own color in a row. Tic-tac-toe is the (3,3,3)-game. Harary's generalized tic-tac-toe is an even broader generalization of tic-tac-toe. It can also be generalized as a nd game. Tic-tac-toe is the game where n equals 3 and d equals 2. If played properly, the game will end in a draw, making tic-tac-toe a futile game.
 
----
 ### 1.2 Ulltimate Tic-Tac-Toe
 
 ***Ultimate tic-tac-toe***  also known as super tic-tac-toe, strategic tic-tac-toe, meta tic-tac-toe, or tic-tac-tic-tac-toe-toe is a board game composed of nine tic-tac-toe boards arranged in a 3-by-3 grid. Players take turns playing in the smaller tic-tac-toe boards until one of them wins in the larger tic-tac-toe board. Compared to traditional tic-tac-toe, strategy in this game is conceptually more difficult, and has proven more challenging for computers.
@@ -47,9 +56,7 @@ Ultimate tic-tac-toe is significantly more complex than most other variations of
  
  3. **Winning the game:** Due to the rules of ultimate tic-tac-toe, the global board is never directly affected. It is only governed by actions that occur in local boards. This means that each local move played is not intended to win the local board, but to win the global board. Local wins are not valuable if they cannot be used to win the global board—in fact, it may be strategic to sacrifice a local board to your opponent in order to win a more important local board yourself. This added layer of complexity makes it harder for humans to analyze the relative importance and significance of moves, and consequently harder to play well.
 
----
 ## Chapter 2 Introduction of technology application
----
 ### 2.1 Technical overview
 - [x] object-oriented programming techniques: class, object, interface, package, encapsulation, inheritance and son on.
 - [x] The exception handling
@@ -60,7 +67,6 @@ Ultimate tic-tac-toe is significantly more complex than most other variations of
 - [x] JavaFx
 - [x] JDBC
 
----
 ### 2.2 JavaFX
 
 JavaFX is a software platform for creating and delivering desktop applications, as well as rich Internet applications (RIAs) that can run across a wide variety of devices. 
@@ -74,7 +80,6 @@ In this project,I use some components as following:
 - Password Field
 - and some other panes and so on
 
----
 ### 2.3 JDBC 
 Java Database Connectivity (JDBC) is an application programming interface (API) for the programming language Java, which defines how a client may access a database. It is a Java-based data access technology used for Java database connectivity. It is part of the Java Standard Edition platform, from Oracle Corporation. It provides methods to query and update data in a database, and is oriented towards relational databases. 
 
@@ -94,9 +99,7 @@ Query statements return a JDBC row result set. The row result set is used to wal
 
 In this project, I manager the information of users via JDBC and MySQL.
 
----
 ## Chapter 3 Design Analysis
----
 ### 3.1 Overview
 
 There are totally 3144 lines in the src of this project.
@@ -123,123 +126,98 @@ And the picture will show the flow of this project:
 
 At last, I would like to show the diagram of each class.
 
----
 ### 3.2 TestServer
 
 ![TestServerUml.PNG-5.3kB][5]
 
----
 ### 3.3 TheverThread
 
 ![ServerThread.PNG-8kB][6]
 
----
 ### 3.4 ServerOperation
 
 ![ServerOperationUML.PNG-17.5kB][7]
 
----
 ### 3.5 RoomManager
 
 ![RoomManagerGUI.PNG-5.6kB][8]
 
----
 ### 3.6 Database
 
 ![DataBaseUML.PNG-6.8kB][9]
 
----
 ### 3.7 BeginGUI
 
 ![BeginGUIUML.PNG-4.1kB][10]
 
----
 ### 3.8 LanGUI
 
 ![LanGUI.PNG-5.8kB][11]
-
----
 
 ### 3.9 LocalGameGUI
 
 ![LocalGameGUIUML.PNG-13.6kB][12]
 
----
 ### 3.10 LogInGUI
 
 ![LogInGUIUML.PNG-4kB][13]
 
----
 ### 3.11 MainGUI
 
 ![MainGUIUML.PNG-5.1kB][14]
 
----
 ### 3.12 NetGameGUI
 
 ![MetGameGUIUML.PNG-29.9kB][15]
 
----
 ### 3.13 RankGUI
 
 ![RankGUIUML.PNG-3.3kB][16]
 
----
 ### 3.14 RoomGUI
 
 ![RoomGUIUML.PNG-5.3kB][17]
 
----
 ### 3.15 WaitGUI
 
 ![WaitGUIUML.PNG-7kB][18]
 
----
 ### 3.16 LocalOperation
 
 ![LocalOperationUML.PNG-20.1kB][19]
 
----
 ### 3.17 NetOperation
 
 ![NetOperationUML.PNG-20.5kB][20]
 
----
 ### 3.18 Operation
 
 ![OperationUML.PNG-4.8kB][21]
 
----
 ### 3.19 Player
 
 ![PlayerUML.PNG-10.9kB][22]
 
----
 ### 3.20 PlayerNet
 
 ![PlayerNet.PNG-9.3kB][23]
 
----
 ### 3.21 Rank
 
 ![RankUML.PNG-10.3kB][24]
 
----
 ### 3.22 Receive
 
 ![ReceiveUML.PNG-25.9kB][25]
 
----
 ### 3.23 MyButton
 
 ![MybuttonUML.PNG-5kB][26]
 
----
 ### 3.24 GameButton
 
 ![GameButton.PNG-18.9kB][27]
 
----
 ### 3.25 NetGameButto
 
 ![NetGamebuttonUTM.PNG-21.9kB][28]
@@ -247,15 +225,11 @@ At last, I would like to show the diagram of each class.
 
 > Note:Because of the complexity,some relationships between these classes may not be showed.
 
----
 ## Chapter 4 System manual
----
 ### 4.1 Icon
 
 ![icon.jpg-39.6kB][29]
 
-
----
 ### 4.2 MainGUI
 
 ![maingui.PNG-1273.7kB][30]
@@ -291,7 +265,6 @@ After playing a little, you will see that, even though you could win a small boa
 
 A draw board will not count for either X, nor O.
 
----
 ### 4.3 LocalGameGUI
 
 ![LocalGameGUI.PNG-1672.2kB][31]
@@ -306,7 +279,6 @@ After you win the game in the small board or win the game finally, the window wi
 
 Besides these, you will enjoy the certain music when you play the game, which is called BGM.
 
----
 ### 4.4 SingleGameGUI
 If you choose to press the button named single, you can play with your friend who is using the same WLAN with you.
 
@@ -344,15 +316,12 @@ If one of two players wins the game, the winner's name will appear at the bottom
 
 ![NetGmeGUI11.PNG-1769kB][41]
 
----
 ### 4.5 Other Settings
 I haven't show some GUI, like GUI of logging in 、rule dialog and rank GUI.
 
 But it maybe similar with those I have showed with you or it's so easy to make it clear for you that I won't explain them in detail.
 
----
 ## Chapter 5 Innovation
----
 Just as I said before, I use some new technologies in this project, which are JavaFX and JDBC.Of course, I may be not very familar with them and take advantages of them well. But, I learn something new and important when I learn and use them.
 
 Something else I want to stress is that ***the project is finished by mysely compeletely,no copies,no reference in source code.*** I try my best to complete this game. Finally, the lines of the code are up to 3000+.
@@ -362,15 +331,11 @@ Something else I want to stress is that ***the project is finished by mysely com
 Of course, I need to improved it in some functions. Because of the limit of the time,a few of founctions are not implemented well and there are some modes of the game I need to implemented.
 And I will write them down later.
 
----
 ## Chapter 6 Improvement
----
 ### 6.1 Forget Mode 
 You can also play on the Forget mode, which erases your 4th oldest game piece, thus having another strategic element which you must focus on, and there won't be any boards that end-up in ties.
 
----
 ### 6.2 Play with AI
----
 #### 6.2.1 Computer implementations from Wikipedia
 While tic-tac-toe is elementary to solve, and can be done nearly instantly using depth-first search, ultimate tic-tac-toe cannot be reasonably solved using any brute force tactics.
 
@@ -379,7 +344,6 @@ The most common artificial intelligence (AI) tactic, minimax, may be used to pla
 
 However, artificial intelligence algorithms that don't need evaluation functions, like the Monte Carlo tree-search algorithm, have no problem in playing this game. The Monte Carlo tree-search relies on random simulations of games in order to determine how good a position is instead of a positional evaluation, and is therefore able to accurately assess how good a current position is. Therefore, computer implementations using these algorithms tend to outperform minimax solutions, and can consistently beat human opponents.
 
----
 #### 6.2.2 My design of AI 
 ***Data structure***
 **Game tree**
@@ -435,7 +399,6 @@ $$f = a \times 2 -b \times 2 \times 3 +c \times 1 - d \times 0$$
 2. Although the pruning operation is carried out, the complexity is still high, and Monte Carlo tree can be used to search for further optimization.
  3. More aspects can be included in the valuation function for calculation.
 
----
 ## Chapter 7 Summary and evaluation
 By the development of the Ultimate Tac-Tic-Toe, I learn some new knowledge about Java and understand some knowledge I have learned beforer better.
 
@@ -445,53 +408,6 @@ Therefore, I will learn to how to make my design of my project or code better an
 
 At last, I learn something important in testing and I am interested in testing more and more now. I think it will influence my plan of my career in the future. 
 
----
 ## Appendix and Reference
 \[1] Core Java Volume I--Fundamentals 
 \[2] Core Java Volume II--Advanced Features
- 
-
-
-  [1]: http://static.zybuluo.com/TangWill/eihl6ig9l86r2jfx547vm2mj/1920px-Tic-tac-toe-game-1.svg.png
-  [2]: http://static.zybuluo.com/TangWill/z0cch0waqrt0758wa7y2fat8/Incomplete_Ultimate_Tic-Tac-Toe_Board.png
-  [3]: http://static.zybuluo.com/TangWill/4lg5jaihji8ymk7cf70dztq5/structure.png
-  [4]: http://static.zybuluo.com/TangWill/t5gbesjdd0sm74xyzuvtfl2t/%E6%8D%95%E8%8E%B7.PNG
-  [5]: http://static.zybuluo.com/TangWill/0lharis80mo9tpvymtridhi1/TestServerUml.PNG
-  [6]: http://static.zybuluo.com/TangWill/viv3tg484gss7jw7ugeaqx57/ServerThread.PNG
-  [7]: http://static.zybuluo.com/TangWill/z6le9nd3uu5qhsw6ircrvnwv/ServerOperationUML.PNG
-  [8]: http://static.zybuluo.com/TangWill/mipwvrslqilh5siopah8pa66/RoomManagerGUI.PNG
-  [9]: http://static.zybuluo.com/TangWill/5hsk6eesrhyl25t5ekwm8jfy/DataBaseUML.PNG
-  [10]: http://static.zybuluo.com/TangWill/1qkdevf8oq316az3143ce6l9/BeginGUIUML.PNG
-  [11]: http://static.zybuluo.com/TangWill/7pc44o4u66tanytlqknjbtqo/LanGUI.PNG
-  [12]: http://static.zybuluo.com/TangWill/q9ijl3v6w3ojxfw5is090hjl/LocalGameGUIUML.PNG
-  [13]: http://static.zybuluo.com/TangWill/132nnwd5k5fr7uz2kkx3xxh9/LogInGUIUML.PNG
-  [14]: http://static.zybuluo.com/TangWill/2ga9qj49ilyvk7a5ptzgdco0/MainGUIUML.PNG
-  [15]: http://static.zybuluo.com/TangWill/dimgw3uk8hv5a2rska972umm/MetGameGUIUML.PNG
-  [16]: http://static.zybuluo.com/TangWill/2tyf28bzxi4srsgz2nvynhf4/RankGUIUML.PNG
-  [17]: http://static.zybuluo.com/TangWill/htvegyf4ppxb2opt83olpwpg/RoomGUIUML.PNG
-  [18]: http://static.zybuluo.com/TangWill/recbfurqamsw7zkhcocn9wye/WaitGUIUML.PNG
-  [19]: http://static.zybuluo.com/TangWill/qvh127ppxzn4zjh8w45jfczp/LocalOperationUML.PNG
-  [20]: http://static.zybuluo.com/TangWill/v7dghpqiqohz9w7tj2autucc/NetOperationUML.PNG
-  [21]: http://static.zybuluo.com/TangWill/bj51shf3fyx99l1bm5o3dgyh/OperationUML.PNG
-  [22]: http://static.zybuluo.com/TangWill/3vwqbq9blvu0hd5ak15d8naw/PlayerUML.PNG
-  [23]: http://static.zybuluo.com/TangWill/md2rcd7u26lpe4xgx7aqg87d/PlayerNet.PNG
-  [24]: http://static.zybuluo.com/TangWill/q92ps6ot21xb31ecwh091v03/RankUML.PNG
-  [25]: http://static.zybuluo.com/TangWill/kb7ng9i586iezjvyq6qvaosp/ReceiveUML.PNG
-  [26]: http://static.zybuluo.com/TangWill/v2n98bbdmy2ncw1tz61y73x1/MybuttonUML.PNG
-  [27]: http://static.zybuluo.com/TangWill/kc58iinsnar7km6x87hul0g9/GameButton.PNG
-  [28]: http://static.zybuluo.com/TangWill/ynk86gcwlsezwhl0e5th5xbd/NetGamebuttonUTM.PNG
-  [29]: http://static.zybuluo.com/TangWill/bos1qlc0ccnnfo95fplimjqr/icon.jpg
-  [30]: http://static.zybuluo.com/TangWill/uftv4l84qfdg42bynwji6c7h/maingui.PNG
-  [31]: http://static.zybuluo.com/TangWill/fua4nr4v5ike6t6rgtfog8e7/LocalGameGUI.PNG
-  [32]: http://static.zybuluo.com/TangWill/5gm459o8blcuqf6vefjlthr5/LocalGameGUI1.PNG
-  [33]: http://static.zybuluo.com/TangWill/e6zesnleug7u3b4z7ta2mr5y/LocalGameGUI2.PNG
-  [34]: http://static.zybuluo.com/TangWill/httdgqs7vehodn6vytd73o1c/SingleGameGUI1.PNG
-  [35]: http://static.zybuluo.com/TangWill/e660889edhugyolsnd14g046/NetGameGUI2.PNG
-  [36]: http://static.zybuluo.com/TangWill/ifbytd9zr0xegqb0v9dsruts/NetGameGUI3.PNG
-  [37]: http://static.zybuluo.com/TangWill/6fskm6eb5apisz2uglhows12/NetGameGUI4.PNG
-  [38]: http://static.zybuluo.com/TangWill/ypr3e2w4v7i5w7ztcf4l3y0i/NetGameGUI5.PNG
-  [39]: http://static.zybuluo.com/TangWill/h1ia92rkh1t4rq39sjigenq6/NetGameGUI6.PNG
-  [40]: http://static.zybuluo.com/TangWill/mokni0u2tuwz5effgcfw6h8p/NetGameGUI7.PNG
-  [41]: http://static.zybuluo.com/TangWill/6w9bbzglevt7g749q7guulnm/NetGmeGUI11.PNG
-  [42]: http://static.zybuluo.com/TangWill/0f1clbmnt8nvzt6mn8cza3af/satistics.PNG
-  [43]: http://static.zybuluo.com/TangWill/nuwg20mzi2p4dgvudqvj0xim/1920px-Tic-tac-toe-game-1.svg.png

@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  一款基于 Cocos2d-x 游戏引擎和 C++ 的消除游戏
+  一款基于 Java 的策略井字棋游戏
 </p>
 
 ## Preface
@@ -228,7 +228,7 @@ At last, I would like to show the diagram of each class.
 ## Chapter 4 System manual
 ### 4.1 Icon
 
-![icon.jpg-39.6kB][29]
+ <img alt="Ultimate Tic-Tac-To " src="http://static.zybuluo.com/TangWill/cinm0c9yyyhzuf1d1wvj3mt1/icon.png" width="200px" height="200px" />
 
 ### 4.2 MainGUI
 
@@ -440,7 +440,7 @@ At last, I learn something important in testing and I am interested in testing m
   [26]: http://static.zybuluo.com/TangWill/v2n98bbdmy2ncw1tz61y73x1/MybuttonUML.PNG
   [27]: http://static.zybuluo.com/TangWill/kc58iinsnar7km6x87hul0g9/GameButton.PNG
   [28]: http://static.zybuluo.com/TangWill/ynk86gcwlsezwhl0e5th5xbd/NetGamebuttonUTM.PNG
-  [29]: http://static.zybuluo.com/TangWill/bos1qlc0ccnnfo95fplimjqr/icon.jpg
+  [29]: http://static.zybuluo.com/TangWill/cinm0c9yyyhzuf1d1wvj3mt1/icon.png
   [30]: http://static.zybuluo.com/TangWill/uftv4l84qfdg42bynwji6c7h/maingui.PNG
   [31]: http://static.zybuluo.com/TangWill/fua4nr4v5ike6t6rgtfog8e7/LocalGameGUI.PNG
   [32]: http://static.zybuluo.com/TangWill/5gm459o8blcuqf6vefjlthr5/LocalGameGUI1.PNG

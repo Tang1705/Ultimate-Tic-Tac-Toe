@@ -1,9 +1,9 @@
 <h1 align="center">
-  <a href="https://github.com/Tang1705/Ultimate-Tic-Tac-Toe" title="Ultimate Tic-Tac-Toe  Documentation">
-    <img alt="Ultimate Tic-Tac-Toe " src="http://static.zybuluo.com/TangWill/bos1qlc0ccnnfo95fplimjqr/icon.jpg" width="200px" height="200px" />
+  <a href="https://github.com/Tang1705/Ultimate-Tic-Tac-Toe" title="Ultimate Tic-Tac-Toe Documentation">
+    <img alt="Ultimate Tic-Tac-To " src="http://static.zybuluo.com/TangWill/bos1qlc0ccnnfo95fplimjqr/icon.jpg" width="200px" height="200px" />
   </a>
   <br />
-  IconBattle
+  Ultimate Tic-Tac-Toe
 </h1>
 
 <p align="center">

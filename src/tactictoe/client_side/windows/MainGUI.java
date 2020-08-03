@@ -122,7 +122,7 @@ public class MainGUI extends Application {
         buttonPane.add(quitButton, 0, 5);
         buttonPane.setPadding(new Insets(100.0D, 500.0D, 800.0D, 200.0D));
         root.setCenter(buttonPane);
-        primaryStage.getIcons().add(new Image("http://static.zybuluo.com/TangWill/du4235tohjaap56iakth6e32/icon.jpg"));
+        primaryStage.getIcons().add(new Image("http://static.zybuluo.com/TangWill/cinm0c9yyyhzuf1d1wvj3mt1/icon.png"));
         scene.getStylesheets().add(BeginGUI.class.getResource("beginCSS.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();

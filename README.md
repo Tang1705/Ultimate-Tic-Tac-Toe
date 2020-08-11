@@ -353,7 +353,7 @@ Each node represents a chessboard situation, and each node has a value generated
 **The minimax algorithm**
 The minimax algorithm will allow both sides to take turns playing chess during the game.  When it's our next turn, I will choose the state with the highest score.  And the other side will choose the most unfavorable state for me.  It can be said that every time I need to choose the best ( max ) from the worst ( min ) situation my opponent has chosen for me, which is the meaning of the algorithm name minimax.
  
- The algorithm obtains the optimal solution of the current AI movement by solving it on the game tree.The time / space complexity is $\mathcal{O}(b^d)$ , the branching factor ( number of nodes ) of each layer is B, and the search depth is D layer.
+ The algorithm obtains the optimal solution of the current AI movement by solving it on the game tree.The time / space complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{O}(b^d)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{O}(b^d)" title="\mathcal{O}(b^d)" /></a> , the branching factor ( number of nodes ) of each layer is B, and the search depth is D layer.
  
  ***Pruning optimization***
 **Alpha-beta pruning**
@@ -363,9 +363,9 @@ A search algorithm to reduce the number of nodes in the game tree of Minimax alg
  
  ***Evaluation method***
  **Valuation function**
- The valuation function can be simply recorded as $f(x) = a\sum A- b\sum B+ c\sum C- d\sum D+e$ where A, B, C, D and e are constants to determine the proportion of each part, and a, b, c, d and e are the main influencing factors:
+ The valuation function can be simply recorded as f<a href="https://www.codecogs.com/eqnedit.php?latex=(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" title="(x) = a\sum A- b\sum B+ c\sum C- d\sum D+e" /></a> where A, B, C, D and e are constants to determine the proportion of each part, and a, b, c, d and e are the main influencing factors:
  
- For a chessboard of $ 3 \ times $ 3, different inherent scores are assigned to different positions in the chessboard, as shown in the figure,
+ For a chessboard of <a href="https://www.codecogs.com/eqnedit.php?latex=3&space;\times&space;3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?3&space;\times&space;3" title="3 \times 3" /></a>, different inherent scores are assigned to different positions in the chessboard, as shown in the figure,
  
 ||||
 |---|---|---|
@@ -376,10 +376,10 @@ A search algorithm to reduce the number of nodes in the game tree of Minimax alg
 This score is derived from the number of winning results that can be formed at different positions.
  
  1. A = number of pieces on our side
- That is, in the current chessboard of $ 3 \ times $ 3, the number of our chessmen is multiplied and summed with the scores of the corresponding positions according to the number of our chessmen at different score positions to obtain the first part of the numerical value in the model.
+ That is, in the current chessboard of <a href="https://www.codecogs.com/eqnedit.php?latex=3&space;\times&space;3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?3&space;\times&space;3" title="3 \times 3" /></a>, the number of our chessmen is multiplied and summed with the scores of the corresponding positions according to the number of our chessmen at different score positions to obtain the first part of the numerical value in the model.
 
  2. B = number of opposing pieces
- That is, in the current chessboard of $ 3 \ times $ 3, the number of opponent pieces is multiplied by the score of the corresponding position according to the number of opponent pieces at different score positions and summed to obtain the second part of the numerical value in the model.
+ That is, in the current chessboard of <a href="https://www.codecogs.com/eqnedit.php?latex=3&space;\times&space;3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?3&space;\times&space;3" title="3 \times 3" /></a>, the number of opponent pieces is multiplied by the score of the corresponding position according to the number of opponent pieces at different score positions and summed to obtain the second part of the numerical value in the model.
 
  3. C = number of threats from the other party
  The opponent's threat refers to the fact that the formed opponent's two chess pieces are in the same straight line and under legal operation, the opponent can obtain the third son under the straight line and win the chessboard. The third part of the numerical value in the model is obtained by summing up the number of threats formed by the opponent in different positions.
@@ -392,12 +392,12 @@ As follows, I'm round pieces
 <div style="background-color:none;height:336px;text-align:center;"><img src="http://static.zybuluo.com/TangWill/nuwg20mzi2p4dgvudqvj0xim/1920px-Tic-tac-toe-game-1.svg.png" /></div>
 
 According to the above model, the score of the chessboard is obtained as follows
-$$f = a \times 2 -b \times 2 \times 3 +c \times 1 - d \times 0$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=f&space;=&space;a&space;\times&space;2&space;-b&space;\times&space;2&space;\times&space;3&space;&plus;c&space;\times&space;1&space;-&space;d&space;\times&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f&space;=&space;a&space;\times&space;2&space;-b&space;\times&space;2&space;\times&space;3&space;&plus;c&space;\times&space;1&space;-&space;d&space;\times&space;0" title="f = a \times 2 -b \times 2 \times 3 +c \times 1 - d \times 0" /></a>
 
 **Subsequent optimization**
 1. The parameter setting of the evaluation function can be iterated by genetic algorithm ( GA ) to optimize the evaluation function.
 2. Although the pruning operation is carried out, the complexity is still high, and Monte Carlo tree can be used to search for further optimization.
- 3. More aspects can be included in the valuation function for calculation.
+3. More aspects can be included in the valuation function for calculation.
 
 ## Chapter 7 Summary and evaluation
 By the development of the Ultimate Tac-Tic-Toe, I learn some new knowledge about Java and understand some knowledge I have learned beforer better.

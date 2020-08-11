@@ -363,7 +363,7 @@ A search algorithm to reduce the number of nodes in the game tree of Minimax alg
  
  ***Evaluation method***
  **Valuation function**
- The valuation function can be simply recorded as f<a href="https://www.codecogs.com/eqnedit.php?latex=(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" title="(x) = a\sum A- b\sum B+ c\sum C- d\sum D+e" /></a> where A, B, C, D and e are constants to determine the proportion of each part, and a, b, c, d and e are the main influencing factors:
+ The valuation function can be simply recorded as <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;a\sum&space;A-&space;b\sum&space;B&plus;&space;c\sum&space;C-&space;d\sum&space;D&plus;e" title="f(x) = a\sum A- b\sum B+ c\sum C- d\sum D+e" /></a> where A, B, C, D and e are constants to determine the proportion of each part, and a, b, c, d and e are the main influencing factors:
  
  For a chessboard of <a href="https://www.codecogs.com/eqnedit.php?latex=3&space;\times&space;3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?3&space;\times&space;3" title="3 \times 3" /></a>, different inherent scores are assigned to different positions in the chessboard, as shown in the figure,
  

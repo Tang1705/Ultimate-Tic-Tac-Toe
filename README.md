@@ -74,7 +74,7 @@ JavaFX is a software platform for creating and delivering desktop applications, 
 JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future. JavaFX has support for desktop computers and web browsers on Microsoft Windows, Linux, and macOS. JavaFX is no longer bundled with the latest Java, nor will be supported by Oracle, while it still is supported for the current long-term version Java SE 8 through March 2022. 
 
 In this project,I use some components as following:
->- Label
+- Label
 - Button
 - Text Field
 - Password Field

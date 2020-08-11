@@ -367,7 +367,7 @@ A search algorithm to reduce the number of nodes in the game tree of Minimax alg
  
  For a chessboard of $ 3 \ times $ 3, different inherent scores are assigned to different positions in the chessboard, as shown in the figure,
  
- |||||
+||||
 |---|---|---|
 |3|2|3|
 |2|4|2|

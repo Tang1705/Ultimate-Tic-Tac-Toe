@@ -12,7 +12,7 @@
 
 ## Preface
 
-You can find this paper form https://www.zybuluo.com/TangWill/note/1442929 .
+You can find this paper from https://www.zybuluo.com/TangWill/note/1442929 .
 
 
 ## Chapter 1 Overall overview
